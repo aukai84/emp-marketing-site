@@ -5,8 +5,15 @@
   "description": "An e-commerce theme designed by Matter Design for Netlify.",
   "author": "Matter Design",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "emp",
+    "emp-hi",
+    "emperformance"
   ],
+  "engineStrict": true,
+  "engines": {
+    "node": "18.17.0"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop -p 5000",
@@ -31,5 +38,9 @@
     "netlify-plugin-cypress": "~2.2.0",
     "plop": "^3.0.5",
     "prettier": "^2.6.2"
+  },
+  "volta": {
+    "node": "18.17.0",
+    "pnpm": "8.6.12"
   }
 }
