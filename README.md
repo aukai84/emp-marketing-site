@@ -14,17 +14,19 @@ Take a look at the screenshot below or preview the live site here: https://gatsb
 
 ## Table of Contents:
 
-- [Quick Steps + Deploy Options](#quick-setup--deploy-option)
+- [Table of Contents:](#table-of-contents)
+- [Quick Setup + Deploy Option](#quick-setup--deploy-option)
+- [Regular Setup](#regular-setup)
   - [Cloning + Installing Packages](#cloning--installing-packages)
 - [Deploying](#deploying)
 - [Project Structure](#project-structure)
-  - [Making Changes to the Hero Component](#making-changes-to-the-hero-component)
-  - [Making Changes to the Header or Footer](#making-content-changes-to-the-header-or-footer)
+  - [Making changes to the Hero component](#making-changes-to-the-hero-component)
+  - [Making content changes to the Header or Footer](#making-content-changes-to-the-header-or-footer)
 - [Testing](#testing)
   - [Included Default Testing](#included-default-testing)
   - [Removing Renovate](#removing-renovate)
   - [Removing Cypress](#removing-cypress)
-- [Next Steps with This Theme](#next-steps-with-this-theme)
+- [Next Steps with this theme](#next-steps-with-this-theme)
 
 ## Quick Setup + Deploy Option
 
@@ -118,7 +120,7 @@ You can see it in action under [`src/pages/index.js`](./src/pages/index.js) or s
 
 ### Making content changes to the Header or Footer
 
-The project contains a file named `src/config.json`. Inside of this file describes the content of the header links (`headerLinks`) as well as the footer links (`footerLinks`). For the header, each element in the array has a base structure of:
+The project contains a file named `src/config.js`. Inside of this file describes the content of the header links (`headerLinks`) as well as the footer links (`footerLinks`). For the header, each element in the array has a base structure of:
 
 ```json
 {
