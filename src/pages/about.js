@@ -26,8 +26,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          image={'/auto_wall.webp'}
+          title={`Hawaii's best Tesla OEM\nand custom parts specialist`}
         />
 
         <div className={styles.navContainer}>

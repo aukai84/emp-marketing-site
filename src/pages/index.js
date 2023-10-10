@@ -29,7 +29,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/tesla_hero.jpeg'}
+        image={'/tesla_hero.webp'}
         ctaAction={goToShop}
       />
 
