@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, navigate } from 'gatsby';
 
-import Config from '../../config.json';
+import Config from '../../config.js';
 import Icon from '../Icons/Icon';
 import { isAuth } from '../../helpers/general';
 
