@@ -6,7 +6,7 @@ import { isAuth } from '../../helpers/general';
 import AddNotification from '../AddNotification';
 import Brand from '../Brand';
 import Container from '../Container';
-import Config from '../../config.json';
+import Config from '../../config.js';
 import Drawer from '../Drawer';
 import ExpandedMenu from '../ExpandedMenu';
 import FormInputField from '../FormInputField/FormInputField';
@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Sales & Installation Specialist';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -77,7 +77,7 @@ const Header = (prop) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showSearch]);
-
+  console.log('active menu', activeMenu);
   return (
     <div className={styles.root}>
       <div className={styles.headerMessageContainer}>
@@ -96,10 +96,9 @@ const Header = (prop) => {
               {Config.headerLinks.map((navObject) => (
                 <Link
                   key={navObject.menuLink}
-                  onMouseEnter={() => handleHover(navObject)}
-                  className={`${styles.navLink} ${
-                    activeMenu === navObject.menuLabel ? styles.activeLink : ''
-                  }`}
+                  // onMouseEnter={() => handleHover(navObject)}
+                  activeClassName={styles.activeLink}
+                  className={styles.navLink}
                   to={navObject.menuLink}
                 >
                   {navObject.menuLabel}
@@ -128,13 +127,13 @@ const Header = (prop) => {
             >
               <Icon symbol={'search'}></Icon>
             </button>
-            <Link
+            {/* <Link
               aria-label="Favorites"
               href="/account/favorites"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
-            </Link>
+            </Link> */}
             <Link
               aria-label="Orders"
               href={isAuth() ? '/login' : '/account/orders/'}
@@ -143,6 +142,7 @@ const Header = (prop) => {
               <Icon symbol={'user'}></Icon>
             </Link>
             <button
+              disabled
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
@@ -152,7 +152,7 @@ const Header = (prop) => {
             >
               <Icon symbol={'bag'}></Icon>
               <div className={styles.bagNotification}>
-                <span>1</span>
+                <span>0</span>
               </div>
             </button>
             <div className={styles.notificationContainer}>
@@ -180,7 +180,7 @@ const Header = (prop) => {
             />
           </form>
           <div className={styles.suggestionContianer}>
-            {searchSuggestions.map((suggestion, index) => (
+            {/* {searchSuggestions.map((suggestion, index) => (
               <p
                 role={'presentation'}
                 onClick={() => {
@@ -192,7 +192,7 @@ const Header = (prop) => {
               >
                 {suggestion}
               </p>
-            ))}
+            ))} */}
           </div>
           <div
             role={'presentation'}

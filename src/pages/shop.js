@@ -12,7 +12,7 @@ import LayoutOption from '../components/LayoutOption';
 import ProductCardGrid from '../components/ProductCardGrid';
 import { generateMockProductData } from '../helpers/mock';
 import Button from '../components/Button';
-import Config from '../config.json';
+import Config from '../config.js';
 
 const ShopPage = (props) => {
   const [showFilter, setShowFilter] = useState(false);

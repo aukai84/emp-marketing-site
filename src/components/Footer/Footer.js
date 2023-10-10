@@ -7,7 +7,7 @@ import Dropdown from '../Dropdown/Dropdown';
 import FormInputField from '../FormInputField/FormInputField';
 import Icon from '../Icons/Icon';
 import Button from '../Button';
-import Config from '../../config.json';
+import Config from '../../config.js';
 import * as styles from './Footer.module.css';
 
 const Footer = (prop) => {

@@ -11,7 +11,7 @@ import LayoutOption from '../components/LayoutOption';
 import ProductCardGrid from '../components/ProductCardGrid';
 import Button from '../components/Button';
 
-import Config from '../config.json';
+import Config from '../config.js';
 import { generateMockProductData } from '../helpers/mock';
 
 const ShopV2Page = (props) => {
