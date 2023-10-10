@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Sales & Installation Specialist';
+  const bannerMessage = 'Authorized Tesla Sales & Installation Specialist!';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
