@@ -136,7 +136,7 @@ const Header = (prop) => {
             </Link> */}
             <Link
               aria-label="Orders"
-              href={isAuth() ? '/login' : '/account/orders/'}
+              // href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
@@ -145,10 +145,10 @@ const Header = (prop) => {
               disabled
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
-              onClick={() => {
-                setShowMiniCart(true);
-                setMobileMenu(false);
-              }}
+              // onClick={() => {
+              //   setShowMiniCart(true);
+              //   setMobileMenu(false);
+              // }}
             >
               <Icon symbol={'bag'}></Icon>
               <div className={styles.bagNotification}>
