@@ -35,26 +35,19 @@ const IndexPage = () => {
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
-        <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
+        <p>Tesla Customization & Suspension Specialist</p>
       </div>
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Choose Your Model'} />
           <ProductCollectionGrid />
         </Container>
       </div>
 
       {/* New Arrivals */}
-      <div className={styles.newArrivalsContainer}>
+      {/* <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
@@ -65,12 +58,12 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Highlight  */}
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
-          <Highlight
+          {/* <Highlight
             image={'/highlight.png'}
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
@@ -79,43 +72,46 @@ const IndexPage = () => {
             description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
             textLink={'shop now'}
             link={'/shop'}
-          />
+          /> */}
         </Container>
       </div>
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
+        <Hero
+          image={'/parts_banner.webp'}
+          title={`Custom Installs to OEM Replacements`}
+        />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>OEM</Link>
+          <Link to={'/shop'}>CUSTOM</Link>
         </div>
       </div>
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about EMP'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
 
       {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
+      {/* <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div>
+      </div> */}
 
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={'/banner3.png'}
-          title={'We are Sustainable'}
+          image={'/engine_banner.webp'}
+          title={'We are enthusiasts'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Our team is dedicated to providing you the best service.  See what we have done'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -124,7 +120,7 @@ const IndexPage = () => {
       </div>
 
       {/* Social Media */}
-      <div className={styles.socialContainer}>
+      {/* <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
           subtitle={'Tag @sydney to be featured.'}
@@ -135,7 +131,7 @@ const IndexPage = () => {
           <img src={`/social/socialMedia3.png`} alt={'social media 3'} />
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
-      </div>
+      </div> */}
       <AttributeGrid />
     </Layout>
   );
