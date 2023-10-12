@@ -6,6 +6,9 @@ import ThemeLink from '../components/ThemeLink';
 import Layout from '../components/Layout/Layout';
 
 import * as styles from './about.module.css';
+
+import autoWall from '../assets/auto_wall.webp';
+
 const AboutPage = (props) => {
   let historyRef = useRef();
   let valuesRef = useRef();
@@ -26,7 +29,7 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/auto_wall.webp'}
+          image={autoWall}
           title={`Hawaii's best Tesla OEM\nand custom parts specialist`}
         />
 

@@ -1,5 +1,9 @@
 import React from 'react';
 import * as styles from './ProductCollectionGrid.module.css';
+import model3 from '../../assets/teslas/model_3.webp';
+import modelY from '../../assets/teslas/model_y.webp';
+import modelX from '../../assets/teslas/model_x.webp';
+import modelS from '../../assets/teslas/model_s.webp';
 
 import ProductCollection from '../ProductCollection';
 
@@ -7,26 +11,26 @@ const ProductCollectionGrid = (props) => {
   return (
     <div className={styles.root}>
       <ProductCollection
-        image={'/teslas/model_3_white.webp'}
-        title={'Model 3 RWD'}
+        image={model3}
+        title={'Model X'}
         // text={'SHOP NOW'}
         // link={'/shop'}
       />
       <ProductCollection
-        image={'/teslas/model_3_black.webp'}
-        title={'Model 3 AWD'}
+        image={modelY}
+        title={'Model Y'}
         // text={'SHOP NOW'}
         // link={'/shop'}
       />
       <ProductCollection
-        image={'/teslas/tesla_red.webp'}
-        title={'Model Y AWD'}
+        image={modelX}
+        title={'Model X'}
         // text={'SHOP NOW'}
         // link={'/shop'}
       />
       <ProductCollection
-        image={'/teslas/tesla_teal.webp'}
-        title={'Model YP'}
+        image={modelS}
+        title={'Model S'}
         // text={'Model YP'}
         // link={'/shop'}
       />

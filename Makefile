@@ -21,5 +21,5 @@ install:
 	@echo "  $(M) Checking if there is any missing dependencies"
 	volta install node@18.17.0
 	volta setup
-	npm install --legacy-peer-deps
+	npm install
 	@echo $(DONE)
