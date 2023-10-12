@@ -10,7 +10,7 @@ import ProductCollectionGrid from '../components/ProductCollectionGrid';
 import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
-import teslaHero from '../assets/tesla_hero.webp';
+import teslaHero from '../assets/tesla_hero_white.webp';
 import partsBanner from '../assets/parts_banner.webp';
 import engineBanner from '../assets/engine_banner.webp';
 
