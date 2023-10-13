@@ -36,7 +36,6 @@ export default {
         // },
         {
           text: 'Privacy Policy',
-          link: '#',
         },
       ],
     },

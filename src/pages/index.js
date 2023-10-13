@@ -95,6 +95,9 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
+      {/* <div class={styles.empLogoContainer}>
+        <img src={empLogoExpaned} />
+      </div> */}
 
       {/* Blog Grid */}
       {/* <div className={styles.blogsContainer}>
@@ -118,9 +121,6 @@ const IndexPage = () => {
         />
       </div>
 
-      <div class={styles.empLogoContainer}>
-        <img src={empLogoExpaned} />
-      </div>
       {/* Social Media */}
       {/* <div className={styles.socialContainer}>
         <Title
