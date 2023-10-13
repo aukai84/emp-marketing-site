@@ -5,11 +5,12 @@ import * as styles from './Partner.module.css';
 const Partner = ({ name, src, href }) => {
   return (
     <div className={styles.root}>
-      <div className={styles.partnerContainer}>
-        <a href={href} target="_blank">
+      <a href={href} target="_blank">
+        <div className={styles.partnerContainer}>
           <img src={src} alt={name} />
-        </a>
-      </div>
+          <div className={styles.overlay}></div>
+        </div>
+      </a>
     </div>
   );
 };
