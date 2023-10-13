@@ -13,6 +13,7 @@ import Title from '../components/Title';
 import teslaHero from '../assets/tesla_hero_white.webp';
 import partsBanner from '../assets/parts_banner.webp';
 import engineBanner from '../assets/engine_banner.webp';
+import empLogoExpaned from '../assets/emp_logo_expanded.webp';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -94,6 +95,9 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
+      <div class={styles.empLogoContainer}>
+        <img src={empLogoExpaned} />
+      </div>
 
       {/* Blog Grid */}
       {/* <div className={styles.blogsContainer}>

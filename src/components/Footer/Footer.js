@@ -69,10 +69,9 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}>Sign Up</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                  Send us your e-mail to be notified of upcoming deals!
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -135,15 +134,15 @@ const Footer = (prop) => {
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
+            {/* <div className={styles.settings}>
               <Dropdown
                 label={'Country/Region'}
                 optionList={Config.currencyList}
               />
               <Dropdown label={'Language'} optionList={Config.languageList} />
-            </div>
+            </div> */}
             <div className={styles.copyrightContainer}>
-              <div className={styles.creditCardContainer}>
+              {/* <div className={styles.creditCardContainer}>
                 {Config.paymentOptions.amex && (
                   <img
                     className={styles.amexSize}
@@ -165,7 +164,7 @@ const Footer = (prop) => {
                     alt={'visa'}
                   ></img>
                 )}
-              </div>
+              </div> */}
               <span>
                 {new Date().getFullYear()} (c) . Built by{' '}
                 <Button target={true} href="https://www.matterdesign.com.au/">

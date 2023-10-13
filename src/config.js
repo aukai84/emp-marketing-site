@@ -30,10 +30,10 @@ export default {
           text: 'About Us',
           link: '/about',
         },
-        {
-          text: 'Journal',
-          link: '/blog',
-        },
+        // {
+        //   text: 'Journal',
+        //   link: '/blog',
+        // },
         {
           text: 'Privacy Policy',
           link: '/support#policy',
@@ -45,20 +45,20 @@ export default {
       links: [
         {
           text: 'FAQ',
-          link: '/faq',
+          link: '/support',
         },
         {
           text: 'Contact Us',
           link: '/support#contact',
         },
-        {
-          text: 'Shipping & Returns',
-          link: '/support#returns',
-        },
-        {
-          text: 'How to use this theme',
-          link: '/how-to-use',
-        },
+        // {
+        //   text: 'Shipping & Returns',
+        //   link: '/support#returns',
+        // },
+        // {
+        //   text: 'How to use this theme',
+        //   link: '/how-to-use',
+        // },
       ],
     },
   ],
