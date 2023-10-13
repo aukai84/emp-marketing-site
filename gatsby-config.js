@@ -4,11 +4,12 @@ module.exports = {
     siteUrl: `https://jamm.matter.design`,
   },
   plugins: [
+    'gatsby-plugin-netlify',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Sydney Ecommerce Theme`,
-        short_name: `Sydney`,
+        name: `EMPerformance Hawaii`,
+        short_name: `Hawaii`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#ffffff`,
@@ -16,6 +17,5 @@ module.exports = {
         icon: 'src/assets/favicon.webp',
       },
     },
-    'gatsby-plugin-netlify',
   ],
 };

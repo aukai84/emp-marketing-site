@@ -10,6 +10,10 @@ import ProductCollectionGrid from '../components/ProductCollectionGrid';
 import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
+import teslaHero from '../assets/tesla_hero_white.webp';
+import partsBanner from '../assets/parts_banner.webp';
+import engineBanner from '../assets/engine_banner.webp';
+import empLogoExpaned from '../assets/emp_logo_expanded.webp';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -27,11 +31,7 @@ const IndexPage = () => {
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
-      <Hero
-        maxWidth={'500px'}
-        image={'/tesla_hero.webp'}
-        ctaAction={goToShop}
-      />
+      <Hero maxWidth={'500px'} image={teslaHero} ctaAction={goToShop} />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
@@ -79,12 +79,11 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.promotionContainer}>
         <Hero
-          image={'/parts_banner.webp'}
-          title={`Custom Installs to OEM Replacements`}
+          image={partsBanner}
+          title={`We provide Hawaii's best custom installations`}
         />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>OEM</Link>
-          <Link to={'/shop'}>CUSTOM</Link>
+          <Link to={'/shop'}>SEE OUR CUSTOMIZATIONS</Link>
         </div>
       </div>
 
@@ -96,6 +95,9 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
+      <div class={styles.empLogoContainer}>
+        <img src={empLogoExpaned} />
+      </div>
 
       {/* Blog Grid */}
       {/* <div className={styles.blogsContainer}>
@@ -108,7 +110,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={'/engine_banner.webp'}
+          image={engineBanner}
           title={'We are enthusiasts'}
           subtitle={
             'Our team is dedicated to providing you the best service.  See what we have done'

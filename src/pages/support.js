@@ -9,6 +9,8 @@ import ThemeLink from '../components/ThemeLink';
 import Policy from '../components/Policy';
 import Container from '../components/Container';
 
+import dealership from '../assets/dealership.webp';
+
 const SupportPage = (props) => {
   const subpages = [
     // { title: 'Shipping', key: 'shipping' },
@@ -72,7 +74,7 @@ const SupportPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={current.title}
-          bgImage={'/dealership.webp'}
+          bgImage={dealership}
           color={'var(--standard-white)'}
           height={'350px'}
         />
