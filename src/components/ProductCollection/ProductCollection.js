@@ -8,7 +8,7 @@ const ProductCollection = (props) => {
   return (
     <div
       role={'presentation'}
-      onClick={() => navigate(link)}
+      // onClick={() => navigate(link)}
       className={styles.root}
       style={{ backgroundImage: `url(${image})` }}
     >

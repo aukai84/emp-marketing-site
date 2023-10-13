@@ -35,7 +35,7 @@ const IndexPage = () => {
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
-        <p>Tesla Customization & Suspension Specialist</p>
+        <p>Specializing in Tesla customization and maintenance</p>
       </div>
 
       {/* Collection Container */}
@@ -83,7 +83,7 @@ const IndexPage = () => {
           title={`We provide Hawaii's best custom installations`}
         />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>SEE OUR CUSTOMIZATIONS</Link>
+          <Link>SEE OUR CUSTOMIZATIONS</Link>
         </div>
       </div>
 
@@ -95,14 +95,11 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
-      <div class={styles.empLogoContainer}>
-        <img src={empLogoExpaned} />
-      </div>
 
       {/* Blog Grid */}
       {/* <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Journal'} subtitle={'aotes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div> */}
@@ -121,6 +118,9 @@ const IndexPage = () => {
         />
       </div>
 
+      <div class={styles.empLogoContainer}>
+        <img src={empLogoExpaned} />
+      </div>
       {/* Social Media */}
       {/* <div className={styles.socialContainer}>
         <Title

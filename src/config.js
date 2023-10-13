@@ -36,7 +36,7 @@ export default {
         // },
         {
           text: 'Privacy Policy',
-          link: '/support#policy',
+          link: '#',
         },
       ],
     },
@@ -45,7 +45,6 @@ export default {
       links: [
         {
           text: 'FAQ',
-          link: '/support',
         },
         {
           text: 'Contact Us',
