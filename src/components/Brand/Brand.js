@@ -2,7 +2,7 @@ import React from 'react';
 import { navigate } from 'gatsby';
 
 import * as styles from './Brand.module.css';
-import empMain from '../../assets/emp_main.webp';
+import empOutline from '../../assets/emp_logo_outlined.webp';
 
 const Brand = (props) => {
   return (
@@ -12,7 +12,7 @@ const Brand = (props) => {
       onClick={() => navigate('/')}
     >
       {/* <h4>SYDNEY</h4> */}
-      <img height={96} width={240} src={empMain} />
+      <img height={112.5} width={240} src={empOutline} />
       {/* <svg
         width={127}
         height={24}
