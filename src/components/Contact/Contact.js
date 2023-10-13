@@ -30,23 +30,26 @@ const Contact = (props) => {
       <div className={styles.section}>
         <h4>Send Us A Message</h4>
         <p>
-          Our Customer Service team are here for all enquiries Monday to Friday,
-          9am - 5pm AEDT (Australian Eastern Daylight Savings Time).
+          Our Customer Service team are here for all enquiries Monday to Sunday,
+          by appointment only (Hawaii Standard Time).
         </p>
         <p>We look forward to hearing from you.</p>
       </div>
 
       <div className={styles.section}>
         <h4>Phone</h4>
-        <p>+1 424 280 4971</p>
-        <p>Monday to Friday - 9am - 5pm AEDT</p>
+        <a href="tel:808-779-8899">808-779-8899</a>
+        <p>Monday to Sunday - 9am - 5pm HST (appointment only)</p>
       </div>
 
       <div className={styles.section}>
         <h4>Email</h4>
         <p>
-          You can email our Customer Service team at customerservice@example.com
-          or via the contact form below:
+          You can email our Customer Service team at{' '}
+          <a href="mailto: emperformancehawaii@gmail.com">
+            emperformancehawaii@gmail.com
+          </a>
+          &nbsp; or via the contact form below:
         </p>
       </div>
 

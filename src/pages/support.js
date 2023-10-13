@@ -9,7 +9,7 @@ import ThemeLink from '../components/ThemeLink';
 import Policy from '../components/Policy';
 import Container from '../components/Container';
 
-import dealership from '../assets/dealership.webp';
+import teslaGarage from '../assets/tesla_garage.webp';
 
 const SupportPage = (props) => {
   const subpages = [
@@ -18,7 +18,6 @@ const SupportPage = (props) => {
     // { title: 'Payments & Security', key: 'payments' },
     // { title: 'Terms & Conditions', key: 'terms' },
     { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
   ];
 
   const [current, setCurrent] = useState(subpages[0]);
@@ -74,7 +73,7 @@ const SupportPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={current.title}
-          bgImage={dealership}
+          bgImage={teslaGarage}
           color={'var(--standard-white)'}
           height={'350px'}
         />

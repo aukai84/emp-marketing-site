@@ -12,8 +12,8 @@ export default {
     { value: 'mandarin', label: '普通话' },
   ],
   social: {
-    facebook: 'https://www.facebook.com/MatterDesign/',
-    instagram: 'https://www.instagram.com/p/CVwMlChIWmW',
+    facebook: 'https://www.facebook.com/emperformancehawaii',
+    instagram: 'https://www.instagram.com/em_performance_hawaii',
     twitter: 'https://twitter.com/hellomatter',
     youtube: 'https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg',
   },
@@ -36,7 +36,6 @@ export default {
         // },
         {
           text: 'Privacy Policy',
-          link: '/support#policy',
         },
       ],
     },
@@ -45,7 +44,6 @@ export default {
       links: [
         {
           text: 'FAQ',
-          link: '/support',
         },
         {
           text: 'Contact Us',

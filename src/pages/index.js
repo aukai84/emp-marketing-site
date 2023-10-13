@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import AttributeGrid from '../components/AttributeGrid';
+import PartnerGrid from '../components/PartnerGrid';
 import Container from '../components/Container';
 import Hero from '../components/Hero';
 import BlogPreviewGrid from '../components/BlogPreviewGrid';
@@ -10,10 +10,12 @@ import ProductCollectionGrid from '../components/ProductCollectionGrid';
 import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
+
+// imported assets
 import teslaHero from '../assets/tesla_hero_white.webp';
-import partsBanner from '../assets/parts_banner.webp';
-import engineBanner from '../assets/engine_banner.webp';
 import empLogoExpaned from '../assets/emp_logo_expanded.webp';
+import teslaCustom from '../assets/tesla_custom.webp';
+import garage from '../assets/garage.webp';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -35,7 +37,7 @@ const IndexPage = () => {
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
-        <p>Tesla Customization & Suspension Specialist</p>
+        <p>Specializing in Tesla customization and maintenance</p>
       </div>
 
       {/* Collection Container */}
@@ -79,11 +81,11 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.promotionContainer}>
         <Hero
-          image={partsBanner}
+          image={garage}
           title={`We provide Hawaii's best custom installations`}
         />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>SEE OUR CUSTOMIZATIONS</Link>
+          <Link>SEE OUR CUSTOMIZATIONS</Link>
         </div>
       </div>
 
@@ -95,14 +97,14 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
-      <div class={styles.empLogoContainer}>
+      {/* <div class={styles.empLogoContainer}>
         <img src={empLogoExpaned} />
-      </div>
+      </div> */}
 
       {/* Blog Grid */}
       {/* <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Journal'} subtitle={'aotes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div> */}
@@ -110,7 +112,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={engineBanner}
+          image={teslaCustom}
           title={'We are enthusiasts'}
           subtitle={
             'Our team is dedicated to providing you the best service.  See what we have done'
@@ -134,7 +136,7 @@ const IndexPage = () => {
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
       </div> */}
-      <AttributeGrid />
+      <PartnerGrid />
     </Layout>
   );
 };

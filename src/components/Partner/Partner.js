@@ -10,9 +10,6 @@ const Partner = ({ name, src, href }) => {
           <img src={src} alt={name} />
         </a>
       </div>
-      <div>
-        <span className={styles.name}>{name}</span>
-      </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Brand = (props) => {
       onClick={() => navigate('/')}
     >
       {/* <h4>SYDNEY</h4> */}
-      <img height={64} width={160} src={empMain} />
+      <img height={96} width={240} src={empMain} />
       {/* <svg
         width={127}
         height={24}

@@ -7,7 +7,7 @@ import Layout from '../components/Layout/Layout';
 
 import * as styles from './about.module.css';
 
-import autoWall from '../assets/auto_wall.webp';
+import empLogoExpaned from '../assets/emp_logo_expanded.webp';
 
 const AboutPage = (props) => {
   let historyRef = useRef();
@@ -29,8 +29,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={autoWall}
-          title={`Hawaii's best Tesla OEM\nand custom parts specialist`}
+          image={empLogoExpaned}
+          customClass={styles.aboutHero}
         />
 
         <div className={styles.navContainer}>
