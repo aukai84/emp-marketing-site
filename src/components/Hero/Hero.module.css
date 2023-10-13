@@ -28,7 +28,7 @@
   font-weight: normal;
   text-align: center;
   white-space: pre-wrap;
-  text-shadow: 0.5px 0.5px 0.5px var(--bg-dark);
+  text-shadow: 0.5px 0.5px 0.5px var(--standard-dark-grey);
 }
 
 .subtitle {

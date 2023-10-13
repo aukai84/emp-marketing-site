@@ -10,10 +10,12 @@ import ProductCollectionGrid from '../components/ProductCollectionGrid';
 import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
+
+// imported assets
 import teslaHero from '../assets/tesla_hero_white.webp';
-import partsBanner from '../assets/parts_banner.webp';
-import engineBanner from '../assets/engine_banner.webp';
 import empLogoExpaned from '../assets/emp_logo_expanded.webp';
+import teslaCustom from '../assets/tesla_custom.webp';
+import garage from '../assets/garage.webp';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
@@ -79,7 +81,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.promotionContainer}>
         <Hero
-          image={partsBanner}
+          image={garage}
           title={`We provide Hawaii's best custom installations`}
         />
         <div className={styles.linkContainers}>
@@ -110,7 +112,7 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={engineBanner}
+          image={teslaCustom}
           title={'We are enthusiasts'}
           subtitle={
             'Our team is dedicated to providing you the best service.  See what we have done'
