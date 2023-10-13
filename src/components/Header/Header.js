@@ -122,7 +122,7 @@ const Header = (prop) => {
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
-                setShowSearch(!showSearch);
+                // setShowSearch(!showSearch);
               }}
             >
               <Icon symbol={'search'}></Icon>
