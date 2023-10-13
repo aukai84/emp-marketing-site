@@ -67,7 +67,48 @@ const Footer = (prop) => {
                 </div>
               );
             })}
-            <div className={styles.newsLetter}>
+            <div className={styles.socialContainer}>
+              {/* {Config.social.youtube && (
+                    <div
+                      onClick={() => handleSocialClick('youtube')}
+                      role={'presentation'}
+                      className={styles.socialIconContainer}
+                    >
+                      <Icon symbol={'youtube'}></Icon>
+                    </div>
+                  )} */}
+
+              {Config.social.instagram && (
+                <div
+                  onClick={() => handleSocialClick('instagram')}
+                  role={'presentation'}
+                  className={styles.socialIconContainer}
+                >
+                  <Icon symbol={'instagram'}></Icon>
+                </div>
+              )}
+
+              {Config.social.facebook && (
+                <div
+                  onClick={() => handleSocialClick('facebook')}
+                  role={'presentation'}
+                  className={styles.socialIconContainer}
+                >
+                  <Icon symbol={'facebook'}></Icon>
+                </div>
+              )}
+
+              {/* {Config.social.twitter && (
+                    <div
+                      onClick={() => handleSocialClick('twitter')}
+                      role={'presentation'}
+                      className={styles.socialIconContainer}
+                    >
+                      <Icon symbol={'twitter'}></Icon>
+                    </div>
+                  )} */}
+            </div>
+            {/* <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
                 <span className={styles.linkTitle}>Sign Up</span>
                 <p className={styles.promoMessage}>
@@ -85,49 +126,8 @@ const Footer = (prop) => {
                     handleChange={(_, e) => setEmail(e)}
                   />
                 </form>
-                <div className={styles.socialContainer}>
-                  {/* {Config.social.youtube && (
-                    <div
-                      onClick={() => handleSocialClick('youtube')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'youtube'}></Icon>
-                    </div>
-                  )} */}
-
-                  {Config.social.instagram && (
-                    <div
-                      onClick={() => handleSocialClick('instagram')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'instagram'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.facebook && (
-                    <div
-                      onClick={() => handleSocialClick('facebook')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'facebook'}></Icon>
-                    </div>
-                  )}
-
-                  {/* {Config.social.twitter && (
-                    <div
-                      onClick={() => handleSocialClick('twitter')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'twitter'}></Icon>
-                    </div>
-                  )} */}
-                </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

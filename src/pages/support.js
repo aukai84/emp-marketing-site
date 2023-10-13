@@ -18,7 +18,6 @@ const SupportPage = (props) => {
     // { title: 'Payments & Security', key: 'payments' },
     // { title: 'Terms & Conditions', key: 'terms' },
     { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
   ];
 
   const [current, setCurrent] = useState(subpages[0]);
