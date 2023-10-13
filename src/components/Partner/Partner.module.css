@@ -1,0 +1,41 @@
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnerContainer {
+  height: 150px;
+  width: 150px;
+}
+
+.partnerContainer a {
+  height: 100%;
+  width: 100%;
+}
+
+.partnerContainer a img {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .root {
+    margin-bottom: 40px;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

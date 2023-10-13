@@ -14,6 +14,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
+        <title>EM Performance Hawai</title>
         <link
           rel="stylesheet"
           type="text/css"

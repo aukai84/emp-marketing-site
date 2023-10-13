@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import AttributeGrid from '../components/AttributeGrid';
+import PartnerGrid from '../components/PartnerGrid';
 import Container from '../components/Container';
 import Hero from '../components/Hero';
 import BlogPreviewGrid from '../components/BlogPreviewGrid';
@@ -136,7 +136,7 @@ const IndexPage = () => {
           <img src={`/social/socialMedia4.png`} alt={'social media 4'} />
         </div>
       </div> */}
-      <AttributeGrid />
+      <PartnerGrid />
     </Layout>
   );
 };

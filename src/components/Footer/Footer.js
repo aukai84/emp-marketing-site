@@ -79,22 +79,26 @@ const Footer = (prop) => {
                   )} */}
 
               {Config.social.instagram && (
-                <div
-                  onClick={() => handleSocialClick('instagram')}
-                  role={'presentation'}
-                  className={styles.socialIconContainer}
-                >
-                  <Icon symbol={'instagram'}></Icon>
+                <div>
+                  <div
+                    onClick={() => handleSocialClick('instagram')}
+                    role={'presentation'}
+                    className={styles.socialIconContainer}
+                  >
+                    <Icon symbol={'instagram'}></Icon>
+                  </div>
                 </div>
               )}
 
               {Config.social.facebook && (
-                <div
-                  onClick={() => handleSocialClick('facebook')}
-                  role={'presentation'}
-                  className={styles.socialIconContainer}
-                >
-                  <Icon symbol={'facebook'}></Icon>
+                <div>
+                  <div
+                    onClick={() => handleSocialClick('facebook')}
+                    role={'presentation'}
+                    className={styles.socialIconContainer}
+                  >
+                    <Icon symbol={'facebook'}></Icon>
+                  </div>
                 </div>
               )}
 

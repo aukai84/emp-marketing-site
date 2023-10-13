@@ -1,0 +1,23 @@
+.root {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnersContainer {
+  width: 100%;
+  background-color: var(--standard-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+@media (max-width: 800px) {
+  .partnersContainer {
+    flex-wrap: wrap;
+  }
+}
