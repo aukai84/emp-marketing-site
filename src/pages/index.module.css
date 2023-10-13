@@ -56,6 +56,7 @@
   left: 50%;
   gap: 72px;
   cursor: pointer;
+  text-align: center;
 }
 
 .ctaCustomButton {
@@ -122,6 +123,11 @@
     margin-bottom: 50px;
   }
   .sustainableContainer {
+  }
+
+  .promotionContainer h2 {
+    font-size: 32px;
+    line-height: 38.5px;
   }
 
   .socialContentGrid {

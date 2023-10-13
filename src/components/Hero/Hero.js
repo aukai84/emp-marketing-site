@@ -15,7 +15,7 @@ const Hero = (props) => {
     ctaLink,
     ctaTo,
     header,
-    customClass,
+    customClass = '',
   } = props;
   return (
     <div
