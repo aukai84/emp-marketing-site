@@ -77,7 +77,6 @@ const Header = (prop) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showSearch]);
-  console.log('active menu', activeMenu);
   return (
     <div className={styles.root}>
       <div className={styles.headerMessageContainer}>

@@ -131,11 +131,11 @@ export default {
       menuLink: '/',
       category: null,
     },
-    {
-      menuLabel: 'About',
-      menuLink: '/about',
-      category: null,
-    },
+    // {
+    //   menuLabel: 'About',
+    //   menuLink: '/about',
+    //   category: null,
+    // },
     {
       menuLabel: 'Contact Us',
       menuLink: '/support',
