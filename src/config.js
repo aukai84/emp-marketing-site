@@ -26,10 +26,10 @@ export default {
     {
       subTitle: 'Info',
       links: [
-        {
-          text: 'About Us',
-          link: '/about',
-        },
+        // {
+        //   text: 'About Us',
+        //   link: '/about',
+        // },
         // {
         //   text: 'Journal',
         //   link: '/blog',
